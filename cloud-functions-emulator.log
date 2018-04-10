@@ -1,0 +1,607 @@
+2018-04-08T18:59:38.763Z - info: User function triggered, starting execution
+2018-04-08T18:59:38.772Z - info: Execution took 10 ms, user function completed successfully
+2018-04-08T19:00:18.206Z - info: User function triggered, starting execution
+2018-04-08T19:00:18.208Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T19:00:25.836Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T19:01:34.563Z - info: Worker for app closed due to file changes.
+2018-04-08T19:04:43.904Z - info: User function triggered, starting execution
+2018-04-08T19:04:43.919Z - info: Execution took 15 ms, user function completed successfully
+2018-04-08T19:05:10.138Z - info: User function triggered, starting execution
+2018-04-08T19:05:10.140Z - info: Execution took 2 ms, user function completed successfully
+2018-04-08T19:05:57.832Z - info: User function triggered, starting execution
+2018-04-08T19:05:57.834Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T19:06:27.029Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T19:06:47.541Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T19:08:03.592Z - info: User function triggered, starting execution
+2018-04-08T19:08:03.595Z - info: { type: 'good', content: 'Hello' }
+2018-04-08T19:08:03.596Z - info: Execution took 3 ms, user function completed successfully
+2018-04-08T19:08:11.342Z - info: User function triggered, starting execution
+2018-04-08T19:08:11.344Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T19:08:30.517Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:21:47.457Z - info: User function triggered, starting execution
+2018-04-08T20:21:47.462Z - info: { type: 'good', content: 'Hello1', key: '1' }
+2018-04-08T20:21:47.470Z - info: Execution took 14 ms, user function completed successfully
+2018-04-08T20:22:19.638Z - info: User function triggered, starting execution
+2018-04-08T20:22:19.638Z - info: { type: 'good', content: 'Hello2', key: '2' }
+2018-04-08T20:22:19.640Z - info: Execution took 2 ms, user function completed successfully
+2018-04-08T20:22:23.466Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello3', key: '3' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:22:37.324Z - info: User function triggered, starting execution
+2018-04-08T20:22:37.326Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T20:23:09.804Z - info: User function triggered, starting execution
+2018-04-08T20:23:09.805Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T20:23:25.321Z - info: User function triggered, starting execution
+2018-04-08T20:23:25.324Z - info: Execution took 2 ms, user function completed successfully
+2018-04-08T20:25:04.126Z - info: Worker for app closed due to file changes.
+2018-04-08T20:25:27.613Z - info: User function triggered, starting execution
+2018-04-08T20:25:27.622Z - info: Execution took 10 ms, user function completed successfully
+2018-04-08T20:25:39.477Z - info: User function triggered, starting execution
+2018-04-08T20:25:39.480Z - info: { type: 'good', content: 'Hello3', key: '4' }
+2018-04-08T20:25:39.483Z - info: Execution took 5 ms, user function completed successfully
+2018-04-08T20:25:40.486Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello3', key: '5' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:25:42.504Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello3', key: '6' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:25:46.908Z - info: User function triggered, starting execution
+2018-04-08T20:25:46.909Z - info: Execution took 0 ms, user function completed successfully
+2018-04-08T20:25:56.344Z - info: User function triggered, starting execution
+2018-04-08T20:25:56.345Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T20:27:03.248Z - info: User function triggered, starting execution
+2018-04-08T20:27:03.258Z - info: Execution took 11 ms, user function completed successfully
+2018-04-08T20:27:03.261Z - error: ReferenceError: key is not defined
+    at app.get (/home/shrikant/work/angular/fb-server/functions/index.js:55:48)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-08T20:27:49.630Z - error: Function worker killed by signal: SIGTERM
+2018-04-08T20:28:32.911Z - info: User function triggered, starting execution
+2018-04-08T20:28:32.924Z - info: Execution took 14 ms, user function completed successfully
+2018-04-08T20:28:32.926Z - error: TypeError: this.deleteFrom is not a function
+    at app.get (/home/shrikant/work/angular/fb-server/functions/index.js:55:31)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-08T20:29:12.173Z - error: Function worker killed by signal: SIGTERM
+2018-04-08T20:29:24.414Z - info: User function triggered, starting execution
+2018-04-08T20:29:24.425Z - info: Execution took 11 ms, user function completed successfully
+2018-04-08T20:29:24.428Z - error: ReferenceError: alert is not defined
+    at deleteFrom (/home/shrikant/work/angular/fb-server/functions/index.js:64:5)
+    at app.get (/home/shrikant/work/angular/fb-server/functions/index.js:55:26)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/shrikant/work/angular/fb-server/functions/node_modules/express/lib/middleware/init.js:40:5)
+2018-04-08T20:29:34.891Z - info: Worker for app closed due to file changes.
+2018-04-08T20:29:43.720Z - info: User function triggered, starting execution
+2018-04-08T20:29:43.732Z - info: Execution took 13 ms, user function completed successfully
+2018-04-08T20:30:11.803Z - info: User function triggered, starting execution
+2018-04-08T20:30:11.805Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T20:30:22.994Z - info: User function triggered, starting execution
+2018-04-08T20:30:22.999Z - info: { type: 'good', content: 'hello1', key: '1' }
+2018-04-08T20:30:23.001Z - info: Execution took 6 ms, user function completed successfully
+2018-04-08T20:30:26.797Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello2', key: '2' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:30:29.738Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello3', key: '3' }
+Execution took 2 ms, user function completed successfully
+2018-04-08T20:30:40.774Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T20:30:54.223Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T20:31:02.777Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T20:31:07.068Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:12:39.196Z - info: User function triggered, starting execution
+2018-04-08T21:12:39.219Z - info: Execution took 30 ms, user function completed successfully
+2018-04-08T21:13:33.878Z - info: Worker for app closed due to file changes.
+2018-04-08T21:14:01.778Z - info: User function triggered, starting execution
+2018-04-08T21:14:01.784Z - info: { type: 'good', content: 'Hello1', key: '1' }
+2018-04-08T21:14:01.794Z - info: Execution took 15 ms, user function completed successfully
+2018-04-08T21:14:05.077Z - info: User function triggered, starting execution
+2018-04-08T21:14:05.082Z - info: { type: 'good', content: 'Hello2', key: '2' }
+Execution took 2 ms, user function completed successfully
+2018-04-08T21:14:08.998Z - info: User function triggered, starting execution
+2018-04-08T21:14:08.998Z - info: { type: 'good', content: 'Hello3', key: '3' }
+2018-04-08T21:14:08.999Z - info: Execution took 0 ms, user function completed successfully
+2018-04-08T21:14:54.223Z - info: User function triggered, starting execution
+2018-04-08T21:14:54.224Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:15:07.733Z - info: User function triggered, starting execution
+2018-04-08T21:15:07.734Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:15:26.194Z - info: User function triggered, starting execution
+2018-04-08T21:15:26.196Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:15:35.687Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:17:40.275Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:17:51.590Z - info: User function triggered, starting execution
+2018-04-08T21:17:51.591Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:18:13.191Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:20:31.034Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:21:07.661Z - info: User function triggered, starting execution
+2018-04-08T21:21:07.662Z - info: { type: 'good', content: 'fsdfdsfds', key: '1' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:21:17.382Z - info: User function triggered, starting execution
+{ type: 'good', content: 'fsdfdsfds', key: '2' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:22:59.516Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:23:43.132Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:24:21.682Z - info: User function triggered, starting execution
+2018-04-08T21:24:21.701Z - info: Execution took 15 ms, user function completed successfully
+2018-04-08T21:24:49.662Z - info: User function triggered, starting execution
+2018-04-08T21:24:49.666Z - info: { type: 'good', content: 'hello1', key: '1' }
+2018-04-08T21:24:49.668Z - info: Execution took 6 ms, user function completed successfully
+2018-04-08T21:26:36.092Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:26:39.183Z - info: User function triggered, starting execution
+2018-04-08T21:26:39.184Z - info: { type: 'good', content: 'dfdsf', key: '1' }
+2018-04-08T21:26:39.184Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:28:30.635Z - info: User function triggered, starting execution
+2018-04-08T21:28:30.638Z - info: Execution took 3 ms, user function completed successfully
+2018-04-08T21:29:12.219Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:29:18.456Z - info: User function triggered, starting execution
+2018-04-08T21:29:18.457Z - info: { type: 'good', content: 'hjhkhkjh', key: '1' }
+2018-04-08T21:29:18.458Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:29:39.053Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hjhkhkjh', key: '2' }
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:31:41.082Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:31:49.300Z - info: User function triggered, starting execution
+2018-04-08T21:31:49.301Z - info: { type: 'good', content: 'hkjhkhk', key: '1' }
+2018-04-08T21:31:49.301Z - info: Execution took 1 ms, user function completed successfully
+2018-04-08T21:33:20.776Z - info: User function triggered, starting execution
+2018-04-08T21:33:20.776Z - info: { type: 'good', content: 'hkjhkhk', key: '2' }
+Execution took 1 ms, user function completed successfully
+2018-04-08T21:35:05.021Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-08T21:35:16.106Z - info: User function triggered, starting execution
+2018-04-08T21:35:16.107Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T11:10:46.558Z - info: User function triggered, starting execution
+2018-04-09T11:10:46.566Z - info: Execution took 8 ms, user function completed successfully
+2018-04-09T11:10:48.291Z - info: User function triggered, starting execution
+2018-04-09T11:10:48.298Z - info: Execution took 5 ms, user function completed successfully
+2018-04-09T11:10:57.422Z - info: User function triggered, starting execution
+2018-04-09T11:10:57.423Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T14:17:47.085Z - info: User function triggered, starting execution
+2018-04-09T14:17:47.094Z - info: { type: 'good', content: 'Hello', key: '1' }
+2018-04-09T14:17:47.100Z - info: Execution took 18 ms, user function completed successfully
+2018-04-09T14:17:48.272Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello2', key: '2' }
+2018-04-09T14:17:48.279Z - info: Execution took 6 ms, user function completed successfully
+2018-04-09T15:13:59.785Z - info: User function triggered, starting execution
+2018-04-09T15:13:59.790Z - info: { type: 'good', content: 'Hello3', key: '3' }
+2018-04-09T15:13:59.799Z - info: Execution took 16 ms, user function completed successfully
+2018-04-09T15:15:56.607Z - info: User function triggered, starting execution
+2018-04-09T15:15:56.612Z - info: { type: 'good', content: 'Hello3', key: '4' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:16:20.990Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello4', key: '5' }
+2018-04-09T15:16:21.006Z - info: Execution took 9 ms, user function completed successfully
+2018-04-09T15:16:33.335Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello5', key: '6' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T15:19:03.079Z - info: User function triggered, starting execution
+2018-04-09T15:19:03.087Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T15:20:32.143Z - info: User function triggered, starting execution
+2018-04-09T15:20:32.147Z - info: { type: 'good', content: 'sdfds', key: '1' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:20:34.261Z - info: User function triggered, starting execution
+2018-04-09T15:20:34.267Z - info: { type: 'good', content: 'sdfdsSDAD', key: '2' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T15:20:36.122Z - info: User function triggered, starting execution
+2018-04-09T15:20:36.133Z - info: { type: 'good', content: 'sdfdsSDADasdADS', key: '3' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T15:21:19.602Z - info: User function triggered, starting execution
+2018-04-09T15:21:19.607Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T15:24:23.907Z - info: User function triggered, starting execution
+2018-04-09T15:24:23.908Z - info: { type: 'good', content: 'asdaa', key: '1' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T15:24:43.253Z - info: User function triggered, starting execution
+2018-04-09T15:24:43.258Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T15:31:16.309Z - info: User function triggered, starting execution
+2018-04-09T15:31:16.325Z - info: Execution took 17 ms, user function completed successfully
+2018-04-09T15:31:17.699Z - info: User function triggered, starting execution
+Execution took 2 ms, user function completed successfully
+2018-04-09T15:31:31.066Z - info: User function triggered, starting execution
+2018-04-09T15:31:31.070Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T15:31:45.530Z - info: User function triggered, starting execution
+2018-04-09T15:31:45.547Z - info: { type: 'good', content: 'Hello1', key: '1' }
+Execution took 16 ms, user function completed successfully
+2018-04-09T15:31:49.857Z - info: User function triggered, starting execution
+2018-04-09T15:31:49.870Z - info: { type: 'good', content: 'Hello2', key: '2' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:31:53.514Z - info: User function triggered, starting execution
+2018-04-09T15:31:53.521Z - info: { type: 'good', content: 'Hello3', key: '3' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:32:02.547Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad1' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:32:05.449Z - info: User function triggered, starting execution
+2018-04-09T15:32:05.461Z - info: { type: 'bad', content: 'Bad2' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:32:12.886Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad3' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T15:32:27.371Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'HPPI1' }
+2018-04-09T15:32:27.386Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T15:32:29.936Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'HPPI2' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:32:32.912Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'HPPI3' }
+2018-04-09T15:32:32.916Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T15:32:42.840Z - info: User function triggered, starting execution
+2018-04-09T15:32:42.845Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T15:32:53.653Z - info: User function triggered, starting execution
+2018-04-09T15:32:53.658Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T15:32:57.731Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-09T15:33:03.652Z - info: User function triggered, starting execution
+2018-04-09T15:33:03.656Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T15:33:07.344Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T15:35:04.447Z - info: User function triggered, starting execution
+Execution took 0 ms, user function completed successfully
+2018-04-09T15:35:12.926Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T15:36:07.784Z - info: User function triggered, starting execution
+2018-04-09T15:36:07.795Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T15:36:10.914Z - info: User function triggered, starting execution
+2018-04-09T15:36:10.916Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T15:36:27.246Z - info: User function triggered, starting execution
+2018-04-09T15:36:27.254Z - info: { type: 'good', content: 'Hello1', key: '1' }
+2018-04-09T15:36:27.257Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T15:36:37.431Z - info: User function triggered, starting execution
+2018-04-09T15:36:37.441Z - info: { type: 'good', content: 'Hello2', key: '2' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T15:36:43.620Z - info: User function triggered, starting execution
+2018-04-09T15:36:43.624Z - info: { type: 'good', content: 'Hello3', key: '3' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:37:03.808Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad1', key: '4' }
+2018-04-09T15:37:03.811Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T15:37:09.069Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad2', key: '5' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T15:37:11.815Z - info: User function triggered, starting execution
+2018-04-09T15:37:11.832Z - info: { type: 'bad', content: 'Bad3', key: '6' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T15:37:45.663Z - info: User function triggered, starting execution
+2018-04-09T15:37:45.673Z - info: { type: 'happiness', content: 'Happi', key: '7' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:37:48.906Z - info: User function triggered, starting execution
+2018-04-09T15:37:48.914Z - info: { type: 'happiness', content: 'Happi2', key: '8' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T15:37:52.314Z - info: User function triggered, starting execution
+2018-04-09T15:37:52.324Z - info: { type: 'happiness', content: 'Happi3', key: '9' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T15:38:26.646Z - info: User function triggered, starting execution
+2018-04-09T15:38:26.667Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T17:15:37.661Z - info: User function triggered, starting execution
+2018-04-09T17:15:37.667Z - info: Execution took 10 ms, user function completed successfully
+2018-04-09T17:19:39.527Z - info: User function triggered, starting execution
+2018-04-09T17:19:39.531Z - info: { type: 'good', content: 'Hello1', key: '1' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:19:40.515Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello1', key: '2' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:19:40.932Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Hello1', key: '3' }
+2018-04-09T17:19:40.948Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T17:19:41.066Z - info: User function triggered, starting execution
+2018-04-09T17:19:41.068Z - info: { type: 'good', content: 'Hello1', key: '4' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:19:51.373Z - info: User function triggered, starting execution
+2018-04-09T17:19:51.374Z - info: { type: 'bad', content: 'badd', key: '5' }
+2018-04-09T17:19:51.386Z - info: Execution took 7 ms, user function completed successfully
+2018-04-09T17:19:51.634Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'badd', key: '6' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:19:51.779Z - info: User function triggered, starting execution
+2018-04-09T17:19:51.779Z - info: { type: 'bad', content: 'badd', key: '7' }
+2018-04-09T17:19:51.780Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:19:51.929Z - info: User function triggered, starting execution
+2018-04-09T17:19:51.931Z - info: { type: 'bad', content: 'badd', key: '8' }
+2018-04-09T17:19:51.933Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:19:58.423Z - info: User function triggered, starting execution
+{ type: 'happiness', content: '44564', key: '9' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:19:58.592Z - info: User function triggered, starting execution
+2018-04-09T17:19:58.592Z - info: { type: 'happiness', content: '44564', key: '10' }
+2018-04-09T17:19:58.594Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:19:58.768Z - info: User function triggered, starting execution
+2018-04-09T17:19:58.775Z - info: { type: 'happiness', content: '44564', key: '11' }
+2018-04-09T17:19:58.792Z - info: Execution took 7 ms, user function completed successfully
+2018-04-09T17:19:59.866Z - info: User function triggered, starting execution
+{ type: 'happiness', content: '44564', key: '12' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:20:18.474Z - info: User function triggered, starting execution
+2018-04-09T17:20:18.475Z - info: { type: 'good', content: 'Hello66', key: '13' }
+2018-04-09T17:20:18.485Z - info: Execution took 8 ms, user function completed successfully
+2018-04-09T17:20:22.936Z - info: User function triggered, starting execution
+2018-04-09T17:20:22.940Z - info: { type: 'good', content: 'Hello60', key: '14' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:20:29.165Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'badd67', key: '15' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:20:34.172Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'badd688', key: '16' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:20:35.705Z - info: User function triggered, starting execution
+2018-04-09T17:20:35.710Z - info: { type: 'bad', content: 'badd688', key: '17' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:20:44.129Z - info: User function triggered, starting execution
+{ type: 'happiness', content: '44564000', key: '18' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:20:46.787Z - info: User function triggered, starting execution
+2018-04-09T17:20:46.794Z - info: { type: 'happiness', content: '445640000', key: '19' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:21:14.445Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:21:21.408Z - info: User function triggered, starting execution
+2018-04-09T17:21:21.409Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:21:40.408Z - info: User function triggered, starting execution
+2018-04-09T17:21:40.413Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:21:47.754Z - info: User function triggered, starting execution
+2018-04-09T17:21:47.755Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:21:59.689Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:22:05.595Z - info: User function triggered, starting execution
+2018-04-09T17:22:05.596Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:22:25.343Z - info: User function triggered, starting execution
+2018-04-09T17:22:25.344Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:22:35.464Z - info: User function triggered, starting execution
+2018-04-09T17:22:35.479Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:22:42.741Z - info: User function triggered, starting execution
+2018-04-09T17:22:42.742Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:24:49.340Z - info: Worker for app closed due to file changes.
+2018-04-09T17:24:56.787Z - info: User function triggered, starting execution
+2018-04-09T17:24:56.799Z - info: Execution took 14 ms, user function completed successfully
+2018-04-09T17:25:12.819Z - info: User function triggered, starting execution
+2018-04-09T17:25:12.822Z - info: { type: 'good', content: 'hello1', key: '1' }
+2018-04-09T17:25:12.824Z - info: Execution took 6 ms, user function completed successfully
+2018-04-09T17:25:16.092Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello2', key: '2' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:25:19.960Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello3', key: '3' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:25:23.744Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello4', key: '4' }
+2018-04-09T17:25:23.759Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:25:28.920Z - info: User function triggered, starting execution
+{ type: 'good', content: 'hello5', key: '5' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:25:38.530Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad1', key: '6' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:25:43.320Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad2', key: '7' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:25:46.956Z - info: User function triggered, starting execution
+2018-04-09T17:25:46.972Z - info: { type: 'bad', content: 'bad3', key: '8' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:25:50.386Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad4', key: '9' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:26:01.611Z - info: User function triggered, starting execution
+2018-04-09T17:26:01.612Z - info: { type: 'happiness', content: 'happy1', key: '10' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:26:04.347Z - info: User function triggered, starting execution
+2018-04-09T17:26:04.350Z - info: { type: 'happiness', content: 'happy2', key: '11' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:26:07.008Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'happy3', key: '12' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:26:10.307Z - info: User function triggered, starting execution
+2018-04-09T17:26:10.313Z - info: { type: 'happiness', content: 'happy4', key: '13' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:26:14.563Z - info: User function triggered, starting execution
+2018-04-09T17:26:14.565Z - info: { type: 'happiness', content: 'happy5', key: '14' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:26:38.770Z - info: User function triggered, starting execution
+2018-04-09T17:26:38.771Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:27:06.498Z - info: User function triggered, starting execution
+2018-04-09T17:27:06.500Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:27:12.251Z - info: User function triggered, starting execution
+2018-04-09T17:27:12.252Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:29:34.644Z - info: User function triggered, starting execution
+2018-04-09T17:29:34.647Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:29:43.238Z - info: User function triggered, starting execution
+2018-04-09T17:29:43.240Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:31:38.566Z - info: User function triggered, starting execution
+2018-04-09T17:31:38.582Z - info: Execution took 17 ms, user function completed successfully
+2018-04-09T17:31:50.764Z - info: User function triggered, starting execution
+2018-04-09T17:31:50.768Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:31:56.600Z - info: User function triggered, starting execution
+2018-04-09T17:31:56.601Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:32:12.546Z - info: User function triggered, starting execution
+2018-04-09T17:32:12.570Z - info: { type: 'good', content: 'good1', key: '1' }
+Execution took 20 ms, user function completed successfully
+2018-04-09T17:32:16.013Z - info: User function triggered, starting execution
+2018-04-09T17:32:16.022Z - info: { type: 'good', content: 'good2', key: '2' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T17:32:20.870Z - info: User function triggered, starting execution
+{ type: 'good', content: 'good3', key: '3' }
+2018-04-09T17:32:20.885Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T17:32:26.624Z - info: User function triggered, starting execution
+2018-04-09T17:32:26.630Z - info: { type: 'good', content: 'good4', key: '4' }
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:32:32.346Z - info: User function triggered, starting execution
+2018-04-09T17:32:32.353Z - info: { type: 'bad', content: 'bad1', key: '5' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:32:37.623Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad2', key: '6' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:32:40.967Z - info: User function triggered, starting execution
+2018-04-09T17:32:40.971Z - info: { type: 'bad', content: 'bad3', key: '7' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:32:57.697Z - info: User function triggered, starting execution
+2018-04-09T17:32:57.711Z - info: { type: 'happiness', content: 'happy1', key: '8' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T17:33:01.092Z - info: User function triggered, starting execution
+2018-04-09T17:33:01.097Z - info: { type: 'happiness', content: 'happy2', key: '9' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T17:33:04.531Z - info: User function triggered, starting execution
+2018-04-09T17:33:04.548Z - info: { type: 'happiness', content: 'happy3', key: '10' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:33:08.316Z - info: User function triggered, starting execution
+2018-04-09T17:33:08.327Z - info: { type: 'happiness', content: 'happy4', key: '11' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:33:24.971Z - info: User function triggered, starting execution
+2018-04-09T17:33:24.974Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:33:38.243Z - info: User function triggered, starting execution
+2018-04-09T17:33:38.248Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T17:33:42.644Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:33:54.523Z - info: User function triggered, starting execution
+2018-04-09T17:33:54.531Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:34:10.033Z - info: User function triggered, starting execution
+2018-04-09T17:34:10.034Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:34:23.486Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:36:31.872Z - info: User function triggered, starting execution
+2018-04-09T17:36:31.880Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T17:36:38.587Z - info: User function triggered, starting execution
+2018-04-09T17:36:38.590Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:37:05.002Z - info: User function triggered, starting execution
+2018-04-09T17:37:05.004Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:40:23.650Z - info: User function triggered, starting execution
+2018-04-09T17:40:23.657Z - info: { type: 'good', content: 'Good1', key: '1' }
+2018-04-09T17:40:23.664Z - info: Execution took 16 ms, user function completed successfully
+2018-04-09T17:40:27.641Z - info: User function triggered, starting execution
+2018-04-09T17:40:27.650Z - info: { type: 'good', content: 'Good2', key: '2' }
+Execution took 8 ms, user function completed successfully
+2018-04-09T17:40:31.068Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Good3', key: '3' }
+2018-04-09T17:40:31.069Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:40:38.540Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad1', key: '4' }
+Execution took 6 ms, user function completed successfully
+2018-04-09T17:42:04.791Z - info: User function triggered, starting execution
+2018-04-09T17:42:04.797Z - info: { type: 'bad', content: 'bad2', key: '5' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:42:10.336Z - info: User function triggered, starting execution
+2018-04-09T17:42:10.349Z - info: { type: 'bad', content: 'bad3', key: '6' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:42:16.963Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'bad4', key: '7' }
+2018-04-09T17:42:16.981Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T17:42:34.146Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'Happy1', key: '8' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:42:36.904Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'Happy2', key: '9' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:42:40.722Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'Happy3', key: '10' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:43:40.130Z - info: User function triggered, starting execution
+2018-04-09T17:43:40.131Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:44:59.859Z - info: User function triggered, starting execution
+Execution took 1 ms, user function completed successfully
+2018-04-09T17:46:55.227Z - info: User function triggered, starting execution
+2018-04-09T17:46:55.228Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:48:28.070Z - info: User function triggered, starting execution
+2018-04-09T17:48:28.075Z - info: { type: 'good', content: 'Good1', key: '1' }
+2018-04-09T17:48:28.085Z - info: Execution took 14 ms, user function completed successfully
+2018-04-09T17:48:35.361Z - info: User function triggered, starting execution
+2018-04-09T17:48:35.372Z - info: { type: 'good', content: 'Good2', key: '2' }
+Execution took 7 ms, user function completed successfully
+2018-04-09T17:48:43.136Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Good3', key: '3' }
+Execution took 6 ms, user function completed successfully
+2018-04-09T17:48:56.988Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad1', key: '4' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:48:59.891Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad2', key: '5' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:49:05.702Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad3', key: '6' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:49:15.428Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad4', key: '7' }
+2018-04-09T17:49:15.449Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T17:49:26.617Z - info: User function triggered, starting execution
+2018-04-09T17:49:26.626Z - info: { type: 'happiness', content: 'Happy1', key: '8' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:49:29.861Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'Happy2', key: '9' }
+Execution took 5 ms, user function completed successfully
+2018-04-09T17:50:56.214Z - info: User function triggered, starting execution
+2018-04-09T17:50:56.222Z - info: Execution took 10 ms, user function completed successfully
+2018-04-09T17:50:58.062Z - info: User function triggered, starting execution
+2018-04-09T17:50:58.080Z - info: { type: 'good', content: 'Goo1', key: '1' }
+2018-04-09T17:50:58.089Z - info: Execution took 25 ms, user function completed successfully
+2018-04-09T17:51:00.795Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Goo2', key: '2' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:51:03.871Z - info: User function triggered, starting execution
+{ type: 'good', content: 'Goo3', key: '3' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:51:11.422Z - info: User function triggered, starting execution
+2018-04-09T17:51:11.450Z - info: { type: 'bad', content: 'Bad1', key: '4' }
+2018-04-09T17:51:11.459Z - info: Execution took 37 ms, user function completed successfully
+2018-04-09T17:51:16.061Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad2', key: '5' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:51:20.157Z - info: User function triggered, starting execution
+{ type: 'bad', content: 'Bad3', key: '6' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:51:29.561Z - info: User function triggered, starting execution
+{ type: 'happiness', content: 'Happy1', key: '7' }
+Execution took 2 ms, user function completed successfully
+2018-04-09T17:51:36.722Z - info: User function triggered, starting execution
+2018-04-09T17:51:36.729Z - info: { type: 'happiness', content: 'Happy2', key: '8' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:51:46.238Z - info: User function triggered, starting execution
+2018-04-09T17:51:46.239Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:52:16.322Z - info: User function triggered, starting execution
+2018-04-09T17:52:16.323Z - info: Execution took 0 ms, user function completed successfully
+2018-04-09T17:52:26.122Z - info: User function triggered, starting execution
+{ type: 'good', key: '1' }
+2018-04-09T17:52:26.140Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T17:52:31.500Z - info: User function triggered, starting execution
+2018-04-09T17:52:31.503Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:52:42.066Z - info: User function triggered, starting execution
+2018-04-09T17:52:42.097Z - info: { type: 'bad', key: '4' }
+Execution took 4 ms, user function completed successfully
+2018-04-09T17:52:47.420Z - info: User function triggered, starting execution
+2018-04-09T17:52:47.421Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T17:52:55.917Z - info: User function triggered, starting execution
+{ type: 'happiness', key: '7' }
+Execution took 3 ms, user function completed successfully
+2018-04-09T17:53:00.061Z - info: User function triggered, starting execution
+2018-04-09T17:53:00.062Z - info: Execution took 1 ms, user function completed successfully
